@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-divider{
+  height: 3rem;
+  background-color:#d2cbc1;
+}  
+
+.product-img{
+  max-height:200px;
+  max-width: 215px;
+  min-height: 199px;
+  min-width: 200px;
+  padding : 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+.product-img:hover{
+  transform: scale(1.1);
+}
+.card-title{
+  min-width: 150px;
+  min-height: 79px;
+  max-height: 80px;
+  overflow: hidden
+}
+.product-card{
+  max-width: 250px;
+  margin-bottom: 3rem;
+}
+.main{
+  background: linear-gradient(0deg, rgba(247,233,213,1) 0%, rgba(210,203,193,1) 100%);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.products-container{
+  background: linear-gradient(0deg, rgba(247,233,213,1) 0%, rgba(210,203,193,1) 100%);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .product-row{
+  margin-bottom: 3rem;
+} */
